@@ -61,11 +61,6 @@ export default function Board() {
 		game[2][1],
 		game[2][2],
 	]);
-	// filterdListX1 = list.filter((s) => s.x === 1 && s.val === "O");
-	// if (filterdListX1.length === 3 || filterdListX1.length === 0) {
-	// }
-	// filterdListX2 = list.filter((s) => s.x === 2);
-	// filterdListX3 = list.filter((s) => s.x === 3);
 
 	return (
 		<div className="flex items-center flex-col">
